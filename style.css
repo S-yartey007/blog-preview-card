@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "fig";
+  src: url("./assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-family: "fig", sans-serif;
+  background-color: hsl(47, 88%, 63%);
+}
+
+img {
+  width: 100%;
+}
+
+.main {
+  max-width: 400px;
+  width: 80%;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 1em;
+  margin: 0 auto;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 10px 5px 5px black;
+}
+.heading {
+  font-weight: 800;
+}
+
+.sub__heading {
+  background-color: hsl(47, 88%, 63%);
+  width: fit-content;
+  text-align: center;
+  border-radius: 5px;
+  padding: 0.2em 0.4em;
+  font-weight: 500;
+}
+
+.heading:hover,
+.date:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+.heading:focus,
+.date:focus {
+  color: hsl(47, 88%, 63%);
+  outline: 0px;
+}
+.avatar__section {
+  display: flex;
+  gap: 1em;
+}
+.avatar {
+  width: 15%;
+}
+
+.date {
+  color: hsl(0, 0%, 7%);
+}
+.section__text {
+  color: hsl(0, 0%, 42%);
+}
